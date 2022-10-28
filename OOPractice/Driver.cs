@@ -2,9 +2,15 @@
 {
     public class Driver
     {
-        public string Drive(Vehicle vehicle)
+        private Vehicle vehicle;
+        public Driver(Vehicle vehicle)
         {
-            return vehicle.SpeedUp();
+            this.vehicle = vehicle;
+        }
+
+        public string Drive()
+        {
+            return this.vehicle.SpeedUp();
         }
     }
 }

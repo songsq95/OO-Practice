@@ -11,6 +11,9 @@
             this.speed = speed;
         }
 
+        //public string Name { get => name; set => name = value; }
+        //public int Speed { get => speed; set => speed = value; }
+        
         public string SpeedUp()
         {
             return $"{name}: speed up {speed} km/h";
